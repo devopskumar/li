@@ -1,0 +1,52 @@
+  ip a
+   35  hostname
+   36  nmtuy
+   37  nmtui
+   38  hostname
+   39  nmtui
+   40  hostname
+   41  shutdown -f
+   42  vi/bin/bash
+   43  vi /bin/bash
+   44  umask 0002
+   45  pwd
+   46  mkdir dir{0..4}
+   47  vi bash
+   48  echo $SHELL
+   49  cat bash profile
+   50  cat bash
+   51  cat bashprofile
+   52  cat /bash
+   53  cat /bin/bash
+   54  chmod 750 file0
+   55  ls -ld
+   56  ls -l
+   57  chmod 070 file1
+   58  ls -ltr
+   59  chmod 007 file2
+   60  ls -ltr
+   61  chmod 777 file{3..4}
+   62  ls -ltr
+   63  u-w file4
+   64  u - w file4
+   65  u+w file3
+   66  chmod 741 dir{0..4}
+   67  ls -ltr
+   68  chmod g+w file4
+   69  ls -ltr
+   70  chmod g-w file4
+   71  ls -ltr
+   72  umask
+   73  groupadd testing
+   74  usermod -G testing pavithra
+   75  id pavithra
+   76  cat /etc/group
+   77  cat /etc/group |grep -i pavithra
+   78  useradd prem
+   79  chown pavithra:testing test2
+   80  touch test2
+   81  chown pavithra:testing test2
+   82  ls -ld test2
+   83  tar -cvf /pavithra.tar /usr
+   84  ls -ltr
+   85  history
